@@ -1,7 +1,71 @@
-html {
-  max-width: 720px;
+/* .card {
+  color: red;
+ 
+} */
+
+
+
+
+.card > p {
+  color:green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
 }
 
-body {
-  background: #fff;
+p:focus,
+p:active,
+p:hover {
+  -webkit-text-fill-color: rgb(254, 246, 8);
+  -webkit-text-stroke: 1px rgb(255, 0, 166);
+  direction: rtl;
 }
+
+#test {
+
+    color: unset;
+    -webkit-text-fill-color: unset;
+    -webkit-text-stroke: unset;
+    /* writing-mode: vertical-lr; */
+    text-align: justify;
+    letter-spacing: 0.1em;
+ }
+ span {
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: underline solid red;
+ }
+ /* .span-b {
+  text-decoration-color: blue;
+ } */
+ span:hover {
+  
+  text-decoration-line: line-through;
+  text-decoration-style: dotted;
+ }
+ pre {
+  tab-size: 2;
+  
+ }
+ * {
+  font-family: "Roboto", Helvetica, sans-serif sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  font-display: swap;
+ }
+ span {
+  
+  font-size: large;
+  font-weight: lighter;
+  font-style: italic;
+ }
+ .test {
+  display: none;
+ }
+ .block {
+  display: block;
+  background: rgb(196, 193, 193);
+  margin: auto;
+  /* width: min-content; */
+  height: fit-content;
+ }
+  
