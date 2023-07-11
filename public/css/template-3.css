@@ -20,15 +20,20 @@
     --weight-text: 400;
 }
 
+
 /* =========================== */
+
+
+
 .page {
     background: var(--color-white);
     padding: 0 15px;
-
+    
     display: flex;
     justify-content: center;
 }
 .page_content {
+    font-family: "Roboto";
     max-width: 960px;
     width: 100%;
     display: flex;
