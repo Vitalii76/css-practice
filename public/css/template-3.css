@@ -130,7 +130,7 @@
     color: var(--color-text);
     font-size: var(--size-l);
     font-weight: var(--weight-text);
-    line-height: 170%;
+    line-height: 150%;
 }
 .blog {
     display: flex;
